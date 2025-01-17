@@ -1,0 +1,29 @@
+{
+  "name": "my-typescript-project",
+  "version": "1.0.0",
+  "description": "A TypeScript project template",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "my-typescript-project": "file:",
+    "playwright": "^1.49.1",
+    "playwright-extra": "^4.3.6",
+    "playwright-extra-plugin-stealth": "^0.0.1",
+    "puppeteer": "^23.11.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/my-typescript-project.git"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
